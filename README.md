@@ -13,5 +13,10 @@
     - `$ ./checkout_and_pull.sh`
 5. BOOM
 
+### Tips & Notes
+
+- If you encounter a permission problem, run `$ chmod 777 checkout_and_pull.sh` to make the script executable
+- The script will check whether each of the subdirectories is a git repo, and if not, it will say that it's not a git repo and skip to the next subdirectory
+
 ### Authour
 Misa Ogura
